@@ -1,0 +1,302 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #11060d;
+  font-weight: bolder;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+#phno{
+  font-family: Arial, sans-serif;
+}
+.contact_page h1{
+    font-family: 'Montserrat', sans-serif;
+}
+h5 {
+  color: #297F87;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+  color: #297F87;
+  font-size:large;
+  font-weight:400;
+}
+
+#find {
+  font-size:xx-large;
+  font-weight:400;
+}
+/* Headings */
+/* mleo logo */
+.logo{
+  width: 15rem;
+height: 7.5rem;
+}
+.real-logo{
+  width: 7rem;
+  height: 7rem;
+}
+.big-heading {
+  font-family: 'Montserrat-Bold';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  position: relative;
+  z-index: 9;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-style: normal;
+}
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container-fluid{
+  padding: 7% 15%;
+  font-size: x-large;
+}
+
+/* Sections */
+
+.colored-section{
+    font-family: 'Montserrat', sans-serif;
+  background-color: #CEE5D0;
+  color: #000;
+}
+
+.contact_page{
+
+  background-color: #CEE5D0;
+  color: #000;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color: #0f0108;
+  font-weight: bold;
+}
+
+.btn{
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  text-decoration: none;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #CEE5D0;
+  color: #000;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/* About us */
+.container-fluid .explination{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: x-large;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 600px;
+  height: 60vh;
+  /* transform: rotate(25deg); */
+  position: absolute;
+  right: 0%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #FF6363;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.loc-icon{
+  color: #035397;
+  margin-bottom: 1rem;
+}
+.loc-icon:hover {
+  color: #ff4c68;
+}
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #F7DAD9;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 60%;
+  /* border-radius: 100%; */
+  margin: 20px;
+}
+.house-image{
+  width: 100%;
+  height: 250%;
+}
+.house-image:hover {
+  width: 100%;
+  height: 255%;
+}
+.images-section#testimonials{
+  background-color: #996633;
+  padding-bottom: 20%;
+  padding-top: 5%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* since about us background was black */
+.about_us{
+  color: #ffffff;
+}
+
+/* Footer Section */
+#yout {
+  color: #f00;
+}
+
+#wats {
+  color: rgb(1, 220, 67);
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 900px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  body{
+    height:100vh;
+    overflow: hiden;
+    font: 16px;
+  }
+
+  .house-image{
+    width: 100%;
+    height: 150%;
+    padding-bottom: 60%;
+  }
+  .house-image:hover {
+    width: 90%;
+    height: 160%;
+  }
+  .images-section#testimonials{
+    background-color: #996633;
+    padding-bottom: 20%;
+    padding-top: 5%;
+  }
+  .colored-section{
+    font: 5px;
+  }
+  h3{
+    font: 12px;
+  }
+}
